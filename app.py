@@ -6,7 +6,7 @@ import random
 app = Flask(__name__)
 # 'postgresql://postgres:password@localhost/databasename'
 # app.config['SQLALCHEMY_DATABASE_URI'] = 'postgresql://postgres:password@localhost/taskmaster'
-app.config['SQLALCHEMY_DATABASE_URI'] = 'postgresql://ownhrwscmnkyci:af1384270c42c195281e9c70aa4ebf1daa31a9481959333ef954261a5589572d@ec2-3-237-55-96.compute-1.amazonaws.com:5432/d6946he5h4154r'
+app.config['SQLALCHEMY_DATABASE_URI'] = ''
 db = SQLAlchemy(app)
 
 
